@@ -1,0 +1,2 @@
+This application allows users to create events, invite other users to those events, and RSVP to invitations.
+You can find the specifications for this app at [The Odin Project](http://www.theodinproject.com/ruby-on-rails/assocations).
