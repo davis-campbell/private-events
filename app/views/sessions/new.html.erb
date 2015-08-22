@@ -1,0 +1,5 @@
+<h1>Log in</h1>
+<%= form_for(:session, url: login_path) do |f| %>
+  Name: <%= text_field_tag :name %>
+  <%= f.submit "Log in" %>
+<% end %>

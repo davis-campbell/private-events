@@ -1,0 +1,6 @@
+<h1><%= @event.name %></h1>
+<p><%= @event.description %></p>
+<p>Created by: <%= @event.creator_id %></p>
+<% @event.attendees.each do |attendee| %>
+  <%= attendee.name %><%= attendee.id %>
+<% end %>
